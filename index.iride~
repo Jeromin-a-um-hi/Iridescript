@@ -1,0 +1,13 @@
+{- Hello, this is a test
+   of multiline comments! -}
+
+(def hi 5)
+(wloop (!= $hi 3)
+  (print $hi)
+  (def hi (- $hi 1)))
+(print (++ "hi" $hi)) // hi!!
+(defun hello ([] word hiya) {
+  (+ 1 1 1)
+  }
+)
+(def hello (($$hello "hoooo" "haaa")))

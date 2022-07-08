@@ -1,0 +1,17 @@
+{
+  "name": "iridescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.25",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^4.6.3"
+  }
+}
